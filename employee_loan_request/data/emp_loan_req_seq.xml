@@ -1,0 +1,10 @@
+<odoo>
+
+<record id="emp_loan_req_seq" model="ir.sequence">
+    <field name="name">Employee Loan Request</field>
+    <field name="code">emp_loan_req_seq_code</field>
+    <field name="prefix">Loan#</field>
+    <field name="padding">4</field>
+</record>    
+
+</odoo>

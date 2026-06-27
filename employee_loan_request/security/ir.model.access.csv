@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_employee_loan_request,access_employee_loan_request,model_employee_loan_request,,1,1,1,1
+access_rejection_reason_wizard,access_rejection_reason_wizard,model_loan_rejection_wizard,,1,1,1,1
+access_accept_loan,access_accept_loan,model_loan_acceptance_wizard,,1,1,1,1
+access_installment_lines,access_installment_lines,model_monthly_installment_lines,,1,1,1,1

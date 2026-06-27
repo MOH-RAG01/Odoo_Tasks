@@ -1,0 +1,28 @@
+<odoo>
+
+    <record id="loan_acceptance_view_form" model="ir.ui.view">
+        <field name="name">loan_acceptance.view.form</field>
+        <field name="model">loan.acceptance.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+
+                <group>
+                    <field name="loan_id" invisible="1"/>
+                    <field name="related_loan_amount" />
+                </group>
+                <footer>
+                    <button string="Accept" name="loan_accept" type="object" class="btn-primary"/>
+                    <button string="Cancel" special="cancel" type="object" class="btn-secondry"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+<record id="loan_accpetance_wizard_action" model="ir.actions.act_window">
+    <field name="name">Are you sure that you want to accept this loan?</field>
+    <field name="res_model">loan.acceptance.wizard</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+
+</record>
+</odoo>

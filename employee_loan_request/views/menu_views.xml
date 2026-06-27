@@ -1,0 +1,19 @@
+<odoo>
+
+    <menuitem
+        id="loan_module_root_menu"
+        name="Employees Loans"
+        sequence="4"/>
+    
+    <menuitem
+        id="loan_first_level_menu"
+        name="Loans"
+        parent="loan_module_root_menu"/>
+    
+    <menuitem
+        id="loan_action_menu"
+        name="Employee Loan Request"
+        action="loans_menu_action"
+        parent="loan_first_level_menu"/>
+
+</odoo>
